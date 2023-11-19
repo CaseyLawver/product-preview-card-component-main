@@ -12,8 +12,9 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-content: center;
     background-color: hsl(30, 38%, 92%);
+    align-items: center;
+    min-height: 100vh;
 }
 
 main {
@@ -26,9 +27,6 @@ img {
     max-width: 100%;
 }
 
-figure {
-    
-}
 
 .copy {
     margin: 30px 30px 30px 30px;
@@ -119,4 +117,3 @@ button:hover {
     background-color: rgb(11, 59, 11);
     transition: 0.7s;
 }
-
